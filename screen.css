@@ -1,0 +1,96 @@
+html {
+	background-color: white;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+/* Navigation stuff */
+
+header {
+    margin:0px;
+    background-color: black;
+}
+
+.site-nav {
+    width: 100%;
+}
+
+.site-nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px; 
+}
+
+.site-nav a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px; 
+    /*width: 25%; */ 
+    text-align: center;
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-weight: bold;
+}
+
+.site-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active link*/
+.site-nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .site-nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
+/* Clearfix */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 10px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+hr {
+   max-width: 90%;
+}
+
+
+
+
+
+
+
+
