@@ -1,6 +1,7 @@
 html {
-	background-color: white;
+	background-color: black;
     font-family: 'Lobster', Georgia, Times, serif;
+    font-color: white;
 }
 
 /* Navigation stuff */
@@ -88,8 +89,14 @@ hr {
 }
 
 
-p {
+body h1 {
+    color: white;
+    text-align: center;
+}
 
+body p {
+    color: white;
+    text-align: center;
 }
 
 
