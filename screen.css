@@ -84,6 +84,18 @@ footer p {
     margin-top: 10px;
 }
 
+
+footer a {
+    padding: 10px;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+}
+
+
 hr {
    max-width: 90%;
 }
@@ -128,6 +140,7 @@ body p {
   background-color: #ddd;
   color: black;
 }
+
 
 
 
