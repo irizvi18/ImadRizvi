@@ -141,7 +141,10 @@ body p {
   color: black;
 }
 
-
+.normal {
+    color: white;
+    text-decoration: none;
+}
 
 
 
