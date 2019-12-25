@@ -184,7 +184,7 @@ li {
 .backText {
   text-align: left;
   color: white;
-  margin: 100px;
+  margin: 5%;
   line-height: 1.5;
 }
 
@@ -193,6 +193,41 @@ li {
   text-decoration: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 
 
 
+.nos  {
+  color:white;
+  text-align: center;
+}
+
+.articles  {
+  color:white;
+  text-align: center;
+}
+
+.articles a {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover { 
+  text-shadow: 0 0 10px white; 
+}
+
+.allPhotos {
+  align-content: center;
+  margin: 3%;
+}
+
+
+/* polygon:hover {
+  fill: white;
+  opacity: 0.2;
+}
+*/
