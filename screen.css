@@ -78,6 +78,14 @@ footer {
     background: black;
     color: white;
     margin-top: 10px;
+
+}
+
+.footer {
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
@@ -145,6 +153,46 @@ body p {
     color: white;
     text-decoration: none;
 }
+
+
+.mainbox {
+  width: 100%;
+  
+}
+
+.box1 {
+  border-style:solid;
+  border-color:white;
+  float:left;
+  width: 22%;
+  margin: 1%;
+  height: 300px;
+}
+
+
+
+li {
+  color: white;
+  line-height: 1.5;
+}
+
+.box1 p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.backText {
+  text-align: left;
+  color: white;
+  margin: 100px;
+  line-height: 1.5;
+}
+
+.backText a{
+  color:white;
+  text-decoration: none;
+}
+
 
 
 
