@@ -13,7 +13,7 @@
 
 	<div id="header"></div>
     <script>
-        fetch("./header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
+        fetch("/header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
     </script>
 
 	<h1> Background </h1>
@@ -66,7 +66,7 @@
 
 	<div id="footer"></div>
     <script>
-      fetch("./footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
+      fetch("/footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
     </script>
 
 
