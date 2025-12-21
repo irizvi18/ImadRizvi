@@ -9,18 +9,14 @@
 	
 
 
+<div id="header"></div>
+    <script>
+        fetch("/header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
+    </script>
 
+	<p>You clicked my eyes. In high school I had this page show all the opinion articles I had written for the Choate News and The Currency Magazine to show how I "see" the world. But all of those articles were taken down and it was funny to later see articles I wrote when I was 15-16 entitled "Embrace Immigrants", "Reform the Electoral College", "Why a $15 Minimum Wage is Necessary", etc. One time I was assigned to write a piece about the Colombia/FARC peace deal which I didn't want to take a stance on because I knew nothing, so I wrote a neutral article explaining both sides. The Opinions section editor cut half of it, inserted an opinion for me against the deal and called it "Colombians Deserve More than Peace; They Deserve Justice" and then I got a lot of hate mail from Colombian alumni.</p>
 
-	<h1>Imad Hasan Rizvi</h1>
-
-        <div class="topnav">
-          <a class= "navElement" href="../index.htm">Home</a>
-          <a class= "navElement" href="../pages/background.html">About Me</a>
-          <a class= "navElement" href="../pages/resume.html">Resume</a>
-          <a class= "navElement" href="../pages/projects.html">Projects</a>
-        </div>
-
-	<h1>Click below to see some of the articles I have written.</h1>
+  <!--
   <p>Disclaimer: some of my opinions have changed since high school...</p>
   <div class = "articles">
       <p><a href="https://thepolitic.org/in-a-name-north-macedonia-and-greece-clash-over-historical-and-cultural-legacies/">North Macedonia and Greece Name Controversy (2020)</a></p>
@@ -33,20 +29,18 @@
       <p><a href="https://thechoatenews.choate.edu/2016/10/07/syrian-conflict-devolving-proxy-war/">Syrian Conflict Devolving into Proxy War (2016)</a></p>
       <p><a href="https://thechoatenews.choate.edu/2016/09/30/duterte-war-criminal-war-crime/">Rodrigo Duterte's Inhumane War on Crime (2016)</a></p>
       <p><a href="https://thechoatenews.choate.edu/2016/04/08/should-usa-follow-californias-15-minimum-wage-for/">Why a $15 Minimum Wage is Necessary (2016)</a></p>
-      
       </div>
+	-->
+	<p>So instead of that I will show you thinks I like to use my eyes on. I like to watch soccer and look at books so I will direct you to my soccer and reading subpages:</p>
+	<ul>
+  <li><a href="hobbies/soccer.html">Soccer</a></li>
+  <li><a href="/hobbies/reading.html">Reading</a></li>
+  </ul>
 
 
+	<div id="footer"></div>
+    <script>
+      fetch("/footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
+    </script>
 
-
-	<footer>
-      <hr>
-        <p>Website coded by Imad Rizvi</p>
-        <a href="https://www.linkedin.com/in/imad-rizvi-6a7029156"> <img src="../images/linkedin-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.facebook.com/profile.php?id=100004744876698"> <img src="../images/fb-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.instagram.com/imadr18/?hl=en"> <img src="../images/insta-icon.png" height="40px" width="40px"> </a>
-        <a href="https://github.com/irizvi18"> <img src="../images/github-icon.png" height="40px" width="40px"> </a>
-        <hr>
-        <p>Contact <a href="mailto:imad.rizvi@rizkazstudios.com">RizKaz Studios</a> if you would like to have a similar personal website produced. Free consultations.</p>
-        <a href="mailto:imad.rizvi@rizkazstudios.com"> <img src="../images/RKS-logo.png" height="100px" width="100px"> </a>
-    </footer>
+	
