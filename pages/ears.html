@@ -11,29 +11,19 @@
 
 
 
-	<h1>Imad Hasan Rizvi</h1>
+	<div id="header"></div>
+    <script>
+        fetch("/header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
+    </script>
 
-        <div class="topnav">
-          <a class= "navElement" href="../index.htm">Home</a>
-          <a class= "navElement" href="../pages/background.html">About Me</a>
-          <a class= "navElement" href="../pages/resume.html">Resume</a>
-          <a class= "navElement" href="../pages/projects.html">Projects</a>
-        </div>
-
-	<h1> Here's what I'm listening to on spotify: </h1>
+	<p> You clicked my ears. Here is a playlist of some of my top songs from age 5-25:</p>
 
 
 	<p align="center"> <iframe src="https://open.spotify.com/embed/user/irizvi18/playlist/6qiyyUjdLdrvsfB5WSDIUT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </p>
 
+	<p>Some of my favorite recent podcasts are The Air Show, Airline Confidential, The Playbook Podcast.</p>
 
-	<footer>
-      <hr>
-        <p>Website coded by Imad Rizvi</p>
-        <a href="https://www.linkedin.com/in/imad-rizvi-6a7029156"> <img src="../images/linkedin-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.facebook.com/profile.php?id=100004744876698"> <img src="../images/fb-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.instagram.com/imadr18/?hl=en"> <img src="../images/insta-icon.png" height="40px" width="40px"> </a>
-        <a href="https://github.com/irizvi18"> <img src="../images/github-icon.png" height="40px" width="40px"> </a>
-        <hr>
-        <p>Contact <a href="mailto:imad.rizvi@rizkazstudios.com">RizKaz Studios</a> if you would like to have a similar personal website produced. Free consultations.</p>
-        <a href="mailto:imad.rizvi@rizkazstudios.com"> <img src="../images/RKS-logo.png" height="100px" width="100px"> </a>
-    </footer>
+	<div id="footer"></div>
+    <script>
+      fetch("/footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
+    </script>
