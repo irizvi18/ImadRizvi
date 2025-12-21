@@ -11,14 +11,10 @@
 
 
 
-	<h1>Imad Hasan Rizvi</h1>
-
-        <div class="topnav">
-          <a class= "navElement" href="../index.htm">Home</a>
-          <a class= "navElement" href="../pages/background.html">About Me</a>
-          <a class= "navElement" href="../pages/resume.html">Resume</a>
-          <a class= "navElement" href="../pages/projects.html">Projects</a>
-        </div>
+	<div id="header"></div>
+    <script>
+        fetch("./header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
+    </script>
 
 	<h1> Background </h1>
 
@@ -68,17 +64,10 @@
 
 
 
-	<footer>
-      <hr>
-        <p>Website coded by Imad Rizvi c. 2017</p>
-        <a href="https://www.linkedin.com/in/imad-rizvi-6a7029156"> <img src="../images/linkedin-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.facebook.com/profile.php?id=100004744876698"> <img src="../images/fb-icon.png" height="40px" width="40px"> </a>
-        <a href="https://www.instagram.com/imadr18/?hl=en"> <img src="../images/insta-icon.png" height="40px" width="40px"> </a>
-        <a href="https://github.com/irizvi18"> <img src="../images/github-icon.png" height="40px" width="40px"> </a>
-        <hr>
-        <p>Contact <a href="mailto:imad.rizvi@rizkazstudios.com">RizKaz Studios</a> if you would like to have a similar personal website produced. Free consultations.</p>
-        <a href="mailto:imad.rizvi@rizkazstudios.com"> <img src="../images/RKS-logo.png" height="100px" width="100px"> </a>
-    </footer>
+	<div id="footer"></div>
+    <script>
+      fetch("./footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
+    </script>
 
 
 </html>
