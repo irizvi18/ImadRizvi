@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="google-site-verification" content="VU2-FCRDfIhKCtqqzEDF4yyvzOdFrP31OSIB01-lJYk" />
+    <title>Imad Rizvi — Software Engineer, Data Analyst, Soccer Enthusiast</title>
+    <link rel = "stylesheet" type = "text/css" href = "../screen.css" />
+</head>
+	
 
+
+
+
+	<div id="header"></div>
+    <script>
+        fetch("/header.html").then(res => res.text()).then(html => {document.getElementById("header").innerHTML = html});
+    </script>
+
+<h1> Industrials </h1>
+<p>I have covered companies across Freight, Airlines, Autos, Aerospace, Construction, Machinery, Multi-Industrial/Manufacturing/Materials, and Clean Energy.</p>
+<p>Here is my ranked reading list for each of the subsectors including books/magazines/ec. that span fiction/non-fiction/etc.</p>
+<p>Freight</p>
+<p>Airlines</p>
+<p>Autos</p>
+<p>Aerospace</p>
+<p>Construction</p>
+<p>Machinery</p>
+<p>Multi-Industrial/Manufacturing/Materials</p>
+<p>Clean Energy</p>
+
+
+	<div id="footer"></div>
+    <script>
+      fetch("/footer.html").then(res => res.text()).then(html => {document.getElementById("footer").innerHTML = html});
+    </script>
+
+
+</html>
